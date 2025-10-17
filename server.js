@@ -31,7 +31,7 @@ app.get('/dashboard', (req, res) =>
 
 app.get('/api/data', (req,res) => {
     console.log('This one was for data')
-    res.send(data)
+    res.statussend(data)
 })
 
 app.post('/api/data', (req,res) =>
